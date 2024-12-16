@@ -1,0 +1,231 @@
+[{
+        "hotel_title": "White Palace Hotel",
+        "rating": "4.2",
+        "location": "Near Hazrat Shahjalal International Airport",
+        "latitude": 23.879744,
+        "longitude": 90.39683,
+        "room_type": "Super Deluxe Twin Room",
+        "price": 36,
+        "image_url": "https://ak-d.tripcdn.com/images/0581612000d3euoz5C29D_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Best Western Plus Maple Leaf",
+        "rating": "4.2",
+        "location": "Near Hazrat Shahjalal International Airport",
+        "latitude": 23.855243,
+        "longitude": 90.404097,
+        "room_type": "Deluxe King Room",
+        "price": 110,
+        "image_url": "https://ak-d.tripcdn.com/images/200k0s000000i31cdA937_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Grand Vistana",
+        "rating": "4.7",
+        "location": "Near Hazrat Shahjalal International Airport",
+        "latitude": 23.856941,
+        "longitude": 90.401835,
+        "room_type": "Deluxe Room With City View",
+        "price": 40,
+        "image_url": "https://ak-d.tripcdn.com/images/1mc5z12000gjtddur706C_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Hotel Sarina",
+        "rating": "4.4",
+        "location": "Near Hazrat Shahjalal International Airport",
+        "latitude": 23.793233,
+        "longitude": 90.404393,
+        "room_type": "Deluxe King Room Non smoking",
+        "price": 96,
+        "image_url": "https://ak-d.tripcdn.com/images/02204120009tpqqmwE146_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Blossom Hotel Dhaka",
+        "rating": "4.0",
+        "location": "Near Hazrat Shahjalal International Airport",
+        "latitude": 23.797509,
+        "longitude": 90.425268,
+        "room_type": "Super Deluxe Twin Room",
+        "price": 22,
+        "image_url": "https://ak-d.tripcdn.com/images/0584p12000dwzcihz8DCE_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Palm Tree Business Hotel",
+        "rating": "4.8",
+        "location": "",
+        "latitude": 23.776807,
+        "longitude": 90.417501,
+        "room_type": "Deluxe City View Twin Room",
+        "price": 100,
+        "image_url": "https://ak-d.tripcdn.com/images/0203r12000by2vv006317_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Holiday Inn Dhaka City Centre",
+        "rating": "4.4",
+        "location": "Near Bangladesh National Museum",
+        "latitude": 23.754054,
+        "longitude": 90.400004,
+        "room_type": "1 King Bed Standard",
+        "price": 128,
+        "image_url": "https://ak-d.tripcdn.com/images/0580e12000d52xi0t3B49_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Six Seasons Hotel",
+        "rating": "4.5",
+        "location": "Near Hazrat Shahjalal International Airport",
+        "latitude": 23.794703,
+        "longitude": 90.419378,
+        "room_type": "Deluxe Room",
+        "price": 92,
+        "image_url": "https://ak-d.tripcdn.com/images/0580n12000cuqbd6u494F_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Dhaka Regency Hotel & Resort Limited",
+        "rating": "3.8",
+        "location": "Near International Convention City Bashundhara",
+        "latitude": 23.829347,
+        "longitude": 90.419461,
+        "room_type": "Standard double Room with No Window",
+        "price": 100,
+        "image_url": "https://ak-d.tripcdn.com/images/0581j12000cs51an0887C_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "The Westin Dhaka",
+        "rating": "4.5",
+        "location": "Near Hazrat Shahjalal International Airport",
+        "latitude": 23.793288,
+        "longitude": 90.414718,
+        "room_type": "Deluxe King Room Non smoking",
+        "price": 145,
+        "image_url": "https://ak-d.tripcdn.com/images/220w0z000000mxlzdF2B5_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Golden Tulip the Grandmark Dhaka",
+        "rating": "4.3",
+        "location": "Near Hazrat Shahjalal International Airport",
+        "latitude": 23.788992,
+        "longitude": 90.407043,
+        "room_type": "Superior King Room",
+        "price": 60,
+        "image_url": "https://ak-d.tripcdn.com/images/1mc3q12000bnb7gpc0FB4_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Britannia International Hotel Canary Wharf",
+        "rating": "3.6",
+        "location": "Near Canary Wharf Metro Station",
+        "latitude": 51.501942,
+        "longitude": -0.02334,
+        "room_type": "Double Room without Window",
+        "price": 62,
+        "image_url": "https://ak-d.tripcdn.com/images/1mc1f12000apgadzt75C4_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Royal National Hotel",
+        "rating": "4.1",
+        "location": "Near The British Museum|Bloomsbury",
+        "latitude": 51.523463,
+        "longitude": -0.127315,
+        "room_type": "Twin Room",
+        "price": 117,
+        "image_url": "https://ak-d.tripcdn.com/images/1mc4512000dl5w9gpC200_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Grand Royale London Hyde Park",
+        "rating": "4.1",
+        "location": "Near Paddington Station|Bayswater",
+        "latitude": 51.511021,
+        "longitude": -0.18635,
+        "room_type": "Superior Double Room",
+        "price": 119,
+        "image_url": "https://ak-d.tripcdn.com/images/0584b12000cs52ipq39E1_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "City London Hotel",
+        "rating": "4.1",
+        "location": "Near London Eye",
+        "latitude": 51.499086,
+        "longitude": -0.101968,
+        "room_type": "Double Room",
+        "price": 89,
+        "image_url": "https://ak-d.tripcdn.com/images/0584412000g3432m4986F_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Heeton Concept Hotel - Kensington London",
+        "rating": "4.0",
+        "location": "Near Imperial College London|Earls Court",
+        "latitude": 51.493629,
+        "longitude": -0.191979,
+        "room_type": "Twin Room",
+        "price": 93,
+        "image_url": "https://ak-d.tripcdn.com/images/1mc4a12000en9f07625B6_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "London Marriott Hotel Canary Wharf",
+        "rating": "4.3",
+        "location": "Near Canary Wharf Metro Station|Canary Wharf",
+        "latitude": 51.507275,
+        "longitude": -0.020995,
+        "room_type": "Deluxe King Room",
+        "price": 264,
+        "image_url": "https://ak-d.tripcdn.com/images/1mc2012000dw1srzpDA23_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "President Hotel",
+        "rating": "4.3",
+        "location": "Near The British Museum|Bloomsbury",
+        "latitude": 51.52228,
+        "longitude": -0.12408,
+        "room_type": "Twin Room",
+        "price": 135,
+        "image_url": "https://ak-d.tripcdn.com/images/0223x12000b0d1t9e998A_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Best Western Mornington Hotel London Kensington",
+        "rating": "4.3",
+        "location": "Near Imperial College London|Earls Court",
+        "latitude": 51.49075,
+        "longitude": -0.193447,
+        "room_type": "Compact Double Room",
+        "price": 130,
+        "image_url": "https://ak-d.tripcdn.com/images/0581812000dwptcbkC032_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "The Tower Hotel",
+        "rating": "4.2",
+        "location": "Near Tower Bridge|Tower Hill",
+        "latitude": 51.506305,
+        "longitude": -0.074721,
+        "room_type": "Standard Sleeper Double Room",
+        "price": 199,
+        "image_url": "https://ak-d.tripcdn.com/images/02058120009jy3b68225A_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Maiden Oval",
+        "rating": "4.1",
+        "location": "Near London Eye",
+        "latitude": 51.480362,
+        "longitude": -0.113638,
+        "room_type": "Double Room",
+        "price": 81,
+        "image_url": "https://ak-d.tripcdn.com/images/20090f0000007amm2B90B_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "London Marriott Hotel County Hall",
+        "rating": "4.3",
+        "location": "Near London Eye|Waterloo",
+        "latitude": 51.501053,
+        "longitude": -0.119174,
+        "room_type": "Deluxe King Room",
+        "price": 545,
+        "image_url": "https://ak-d.tripcdn.com/images/22030z000000msc7sF998_R_250_250_R5_D.jpg"
+    },
+    {
+        "hotel_title": "Point A Hotel London Westminster",
+        "rating": "4.0",
+        "location": "Near London Eye|Waterloo",
+        "latitude": 51.49912,
+        "longitude": -0.112538,
+        "room_type": "Cozy Double Room with No Window",
+        "price": 89,
+        "image_url": "https://ak-d.tripcdn.com/images/0225y120009mb3rmy8D04_R_250_250_R5_D.jpg"
+    }
+]
