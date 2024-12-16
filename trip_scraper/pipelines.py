@@ -5,10 +5,27 @@ from trip_scraper.models import session, Hotel
 
 
 class HotelPipeline:
-    IMAGE_DIR = "images"
+    IMAGE_DIR = "trip_scraper/images"
+    OUTPUT_FILE = "outputs.json"
 
     def open_spider(self, spider):
         os.makedirs(self.IMAGE_DIR, exist_ok=True)
+        # Clear JSON file
+        if os.path.exists(self.OUTPUT_FILE):
+            with open(self.OUTPUT_FILE, "w") as file:
+                file.write("")  # Empty the file
+            spider.logger.info(f"Cleared the {self.OUTPUT_FILE} file.")
+        else:
+            spider.logger.info(f"{self.OUTPUT_FILE} does not exist. A new file will be created.")
+
+        # Clear database
+        try:
+            session.query(Hotel).delete()  # Deletes all records
+            session.commit()
+            spider.logger.info("Database cleared successfully.")
+        except SQLAlchemyError as e:
+            spider.logger.error(f"Error clearing database: {e}")
+            session.rollback()
 
     def process_item(self, item, spider):
         # Save the image locally
@@ -31,8 +48,8 @@ class HotelPipeline:
                 hotel_title=item.get("hotel_title", "Unknown"),
                 rating=item.get("rating", None),
                 location=item.get("location", "Unknown"),
-                latitude= item.get("latitude", None),
-                longitude= item.get("longitude", None),
+                latitude=item.get("latitude", None),
+                longitude=item.get("longitude", None),
                 room_type=item.get("room_type", "Unknown"),
                 price=item.get("price", None),
                 image_url=image_path,

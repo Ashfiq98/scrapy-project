@@ -2,6 +2,7 @@ import scrapy
 import json
 import re
 import random
+import os
 
 
 class ScraperSpider(scrapy.Spider):

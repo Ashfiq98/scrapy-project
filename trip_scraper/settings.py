@@ -4,9 +4,15 @@ BOT_NAME = "trip_scraper"
 
 SPIDER_MODULES = ["trip_scraper.spiders"]
 NEWSPIDER_MODULE = "trip_scraper.spiders"
-FEED_FORMAT = 'json'
-FEED_URI = 'outputs.json'
-IMAGES_STORE = "images"  # Path to store downloaded images
+FEEDS = {
+    "outputs.json": {
+        "format": "json",
+        "overwrite": True,  # Ensures the file is cleared before each run
+    }
+}
+# FEED_FORMAT = 'json'
+# FEED_URI = 'outputs.json'
+IMAGES_STORE = "trip_scraper/images"  # Path to store downloaded images
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = "trip_scraper (+http://www.yourdomain.com)"
