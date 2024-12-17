@@ -1,3 +1,12 @@
 scrapy
 psycopg2-binary
 SQLAlchemy
+pytest                   # For writing and running tests
+pytest-mock              # For mocking objects in tests
+responses                # For mocking HTTP requests in tests
+
+# Code Coverage
+pytest-cov               # For measuring code coverage
+
+# Additional Tools
+coverage   
