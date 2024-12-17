@@ -34,7 +34,12 @@ Ensure you have the following installed:
 # Step 1: Clone the Repository
 ```bash
 git clone https://github.com/Ashfiq98/scrapy-project.git
+```
+```bash
 cd scrapy-project
+```
+```bash
+code . # for entering into vs code
 ```
 # Step 2: Build and Start the Docker Containers
 ```bash
