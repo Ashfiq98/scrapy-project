@@ -90,6 +90,25 @@ psql -U user -d mydb
 ```bash
 SELECT * FROM hotels;
 ```
+* You can see database inside pgAdmin go to :
+  - http://localhost:5050/
+    - username : admin@admin.com  (from docker-compose.yml)
+    - password : admin (from docker-compose.yml)
+  - Servers 
+    - Register 
+      - server
+          (general)
+        - name : mydb 
+         (Connection tab)  
+        - Host name/address: db
+        - Port: 5432 
+        - Maintenance database: mydb (as defined in POSTGRES_DB)
+        - username : user (as defined in POSTGRES_USER)
+        - password : password (as defined in POSTGRES_USER)
+- inside 'mydb' open query tool and run this command :
+```bash
+ SELECT * FROM hotels;
+```   
 ### Testing the Scraper
  # Step 1: Set Up a Virtual Environment
    - Create and activate a virtual environment for testing.
