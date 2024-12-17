@@ -1,6 +1,7 @@
-# Scrapy Project for Trip.com Data Scraping
+## Scrapy Project for Trip.com Data Scraping
 
 This project is designed to dynamically scrape property data from Trip.com and store it efficiently in a PostgreSQL database, leveraging Docker for seamless setup and deployment. The project includes automated table creation, local storage of property images, and references to these images in the database. Additionally, testing and verification of the scraper functionality are incorporated to ensure high-quality data collection.
+
 ---
 ## Key Features
 
