@@ -15,12 +15,12 @@ class Hotel(Base):
 
     id = Column(Integer, primary_key=True, autoincrement=True)
     hotel_title = Column(String(255), nullable=False)
-    rating = Column(Float)
-    location = Column(String(255))
-    latitude = Column(Float)
-    longitude = Column(Float)
-    room_type = Column(String(255))
-    price = Column(Float)
+    rating = Column(Float, nullable=True)
+    location = Column(String(255), nullable=True)
+    latitude = Column(Float, nullable=True)
+    longitude = Column(Float, nullable=True)
+    room_type = Column(String(255), nullable=True)
+    price = Column(Float, nullable=True)
     image_url = Column(Text, nullable=True)
 
 
