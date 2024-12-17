@@ -94,17 +94,18 @@ SELECT * FROM hotels;
   - http://localhost:5050/
     - username : admin@admin.com  (from docker-compose.yml)
     - password : admin (from docker-compose.yml)
+   - go to
   - Servers 
     - Register 
       - server
-          (general)
+        - (general tab)
         - name : mydb 
-         (Connection tab)  
-        - Host name/address: db
-        - Port: 5432 
-        - Maintenance database: mydb (as defined in POSTGRES_DB)
-        - username : user (as defined in POSTGRES_USER)
-        - password : password (as defined in POSTGRES_USER)
+         - (Connection tab)  
+         - Host name/address: db
+         - Port: 5432 
+         - Maintenance database: mydb (as defined in POSTGRES_DB)
+         - username : user (as defined in POSTGRES_USER)
+         - password : password (as defined in POSTGRES_USER)
 - inside 'mydb' open query tool and run this command :
 ```bash
  SELECT * FROM hotels;
